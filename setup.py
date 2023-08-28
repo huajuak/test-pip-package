@@ -28,7 +28,7 @@ setup(
     url='https://github.com/huajuak/test-pip-package',
     author='Anan Sangthongtum',
     author_email='hujauak@gmail.com',
-    # packages=find_packages(exclude=['tests', 'tests.*']),
+    packages=find_packages(exclude=['tests', 'tests.*']),
     extras_require={
         'math': extra_math,
         'bin': extra_bin,
