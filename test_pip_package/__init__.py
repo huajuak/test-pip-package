@@ -5,5 +5,5 @@ def hello_world():
     print("This is my first pip package!")
 
 
-def print(a, b):
+def print_func(a, b):
     return a + b
